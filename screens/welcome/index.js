@@ -1,16 +1,10 @@
-import React from "react"
-import {
-  View,
-  Image,
-  Text,
-  ScrollView,
-  SafeAreaView,
-  StyleSheet
-} from "react-native"
+import { ActivityIndicator } from "react-native";
+import { TextInput } from "react-native";
+import React from "react";
+import { View, Image, Text, ScrollView, SafeAreaView, StyleSheet } from "react-native";
 
 const WelcomeScreen = () => {
-  return (
-    <SafeAreaView style={styles.container}>
+  return <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={styles.scrollView}>
         <View style={styles.group} />
         <View style={styles.group}>
@@ -21,9 +15,8 @@ const WelcomeScreen = () => {
         </View>
         <Text style={styles.footer}>Made with ❤️ by Crowdbotics</Text>
       </ScrollView>
-    </SafeAreaView>
-  )
-}
+    <TextInput style={styles.bGvLpYRr} value="DDD"></TextInput><ActivityIndicator style={styles.ghEonbYm}></ActivityIndicator><Text style={styles.UqXpXIeu}>Lorem ipsum…</Text></SafeAreaView>;
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -58,7 +51,23 @@ const styles = StyleSheet.create({
     color: "#828AB0",
     fontWeight: 700,
     marginBottom: 20
+  },
+  bGvLpYRr: {
+    backgroundColor: "#ffffff",
+    borderColor: "#cccccc",
+    width: 150,
+    height: 30
+  },
+  ghEonbYm: {
+    width: 50,
+    height: 50
+  },
+  UqXpXIeu: {
+    width: 100,
+    height: 50,
+    lineHeight: 14,
+    fontSize: 14,
+    borderRadius: 0
   }
-})
-
-export default WelcomeScreen
+});
+export default WelcomeScreen;
