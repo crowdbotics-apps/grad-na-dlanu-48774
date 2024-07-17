@@ -14,7 +14,7 @@ const Untitled6 = () => {
           <View style={styles.row2}></View>
           <View style={styles.row3}></View>
       </ScrollView>
-    <TextInput style={styles.AKwwkClr}></TextInput></SafeAreaView>;
+    <TextInput style={styles.AKwwkClr} value="SDA"></TextInput></SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
